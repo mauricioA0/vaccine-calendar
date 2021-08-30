@@ -24,6 +24,7 @@ export const VaccineEvent = ({ period, vaccine }: VaccineEventProps) => {
           shadowColor={vaccine.shadowColor}
           content={validPeriod.name}
           rangePeriod={validPeriod.rangePeriods}
+          appliedOnPeriod={validPeriod.appliedOnPeriod}
         />
       )}
     </Table.Cell>

@@ -66,9 +66,9 @@ export const VACCINES_HISTORY: IVaccineEvent[] = [
     shadowColor: "#fde9e6",
     textColor: "#000000",
     doses: [
-      { name: "1st dose", periodId: 1, rangePeriods: 0.1 },
-      { name: "2nd dose", periodId: 2, rangePeriods: 1.8 },
-      { name: "3rd dose", periodId: 5, rangePeriods: 5.2 },
+      { name: "1st dose", periodId: 1, rangePeriods: 1 },
+      { name: "2nd dose", periodId: 2, rangePeriods: 2 },
+      { name: "3rd dose", periodId: 5, rangePeriods: 5 },
     ],
   },
   {
@@ -77,9 +77,9 @@ export const VACCINES_HISTORY: IVaccineEvent[] = [
     shadowColor: "#fbe7bd",
     textColor: "#000000",
     doses: [
-      { name: "1st dose", periodId: 3, rangePeriods: 0.1 },
-      { name: "2nd dose", periodId: 4, rangePeriods: 0.1 },
-      { name: "3rd dose", periodId: 5, rangePeriods: 0.1 },
+      { name: "1st dose", periodId: 3, rangePeriods: 1 },
+      { name: "2nd dose", periodId: 4, rangePeriods: 1 },
+      { name: "3rd dose", periodId: 5, rangePeriods: 1 },
     ],
   },
   {
@@ -88,11 +88,11 @@ export const VACCINES_HISTORY: IVaccineEvent[] = [
     shadowColor: "#e9beca",
     textColor: "#ffffff",
     doses: [
-      { name: "1st dose", periodId: 3, rangePeriods: 0.1 },
-      { name: "2nd dose", periodId: 4, rangePeriods: 0.1 },
-      { name: "3rd dose", periodId: 5, rangePeriods: 0.1 },
-      { name: "4rd dose", periodId: 7, rangePeriods: 1.8 },
-      { name: "5rd dose", periodId: 11, rangePeriods: 0.1 },
+      { name: "1st dose", periodId: 3, rangePeriods: 1 },
+      { name: "2nd dose", periodId: 4, rangePeriods: 1 },
+      { name: "3rd dose", periodId: 5, rangePeriods: 1 },
+      { name: "4rd dose", periodId: 7, rangePeriods: 2 },
+      { name: "5rd dose", periodId: 11, rangePeriods: 1 },
     ],
   },
   {
@@ -101,10 +101,10 @@ export const VACCINES_HISTORY: IVaccineEvent[] = [
     shadowColor: "#e8f5c7",
     textColor: "#000000",
     doses: [
-      { name: "1st dose", periodId: 3, rangePeriods: 0.1 },
-      { name: "2nd dose", periodId: 4, rangePeriods: 0.1 },
-      { name: "3rd dose", periodId: 5, rangePeriods: 0.1 },
-      { name: "3rd or 4rd dose", periodId: 6, rangePeriods: 1.3 },
+      { name: "1st dose", periodId: 3, rangePeriods: 1 },
+      { name: "2nd dose", periodId: 4, rangePeriods: 1 },
+      { name: "3rd dose", periodId: 5, rangePeriods: 1 },
+      { name: "3rd or 4rd dose", periodId: 6, rangePeriods: 2 },
     ],
   },
   {
@@ -113,10 +113,10 @@ export const VACCINES_HISTORY: IVaccineEvent[] = [
     shadowColor: "#bde9ef",
     textColor: "#000000",
     doses: [
-      { name: "1st dose", periodId: 3, rangePeriods: 0.1 },
-      { name: "2nd dose", periodId: 4, rangePeriods: 0.1 },
-      { name: "3rd dose", periodId: 5, rangePeriods: 0.1 },
-      { name: "4rd dose", periodId: 6, rangePeriods: 1.8 },
+      { name: "1st dose", periodId: 3, rangePeriods: 1 },
+      { name: "2nd dose", periodId: 4, rangePeriods: 1 },
+      { name: "3rd dose", periodId: 5, rangePeriods: 1 },
+      { name: "4rd dose", periodId: 6, rangePeriods: 2 },
     ],
   },
   {
@@ -125,10 +125,10 @@ export const VACCINES_HISTORY: IVaccineEvent[] = [
     shadowColor: "#c4cbf5",
     textColor: "#ffffff",
     doses: [
-      { name: "1st dose", periodId: 3, rangePeriods: 0.1 },
-      { name: "2nd dose", periodId: 4, rangePeriods: 0.1 },
-      { name: "3rd dose", periodId: 5, rangePeriods: 5.2 },
-      { name: "4rd dose", periodId: 11, rangePeriods: 0.1 },
+      { name: "1st dose", periodId: 3, rangePeriods: 1 },
+      { name: "2nd dose", periodId: 4, rangePeriods: 1 },
+      { name: "3rd dose", periodId: 5, rangePeriods: 5 },
+      { name: "4rd dose", periodId: 11, rangePeriods: 1 },
     ],
   },
   {
@@ -136,7 +136,14 @@ export const VACCINES_HISTORY: IVaccineEvent[] = [
     stroke: "#484e62",
     shadowColor: "#c8cace",
     textColor: "#ffffff",
-    doses: [{ name: "Yearly 1 or 2 doses", periodId: 5, rangePeriods: 9.4 }],
+    doses: [
+      {
+        name: "Yearly 1 or 2 doses",
+        periodId: 5,
+        rangePeriods: 7,
+        appliedOnPeriod: 0.3,
+      },
+    ],
   },
   {
     name: "MMR",
@@ -144,8 +151,8 @@ export const VACCINES_HISTORY: IVaccineEvent[] = [
     shadowColor: "#aadcb8",
     textColor: "#ffffff",
     doses: [
-      { name: "1st dose", periodId: 6, rangePeriods: 1.8 },
-      { name: "2nd dose", periodId: 11, rangePeriods: 0.1 },
+      { name: "1st dose", periodId: 6, rangePeriods: 2 },
+      { name: "2nd dose", periodId: 11, rangePeriods: 1 },
     ],
   },
   {
@@ -154,8 +161,8 @@ export const VACCINES_HISTORY: IVaccineEvent[] = [
     shadowColor: "#c5c1d7",
     textColor: "#ffffff",
     doses: [
-      { name: "1st dose", periodId: 6, rangePeriods: 1.8 },
-      { name: "2nd dose", periodId: 11, rangePeriods: 0.1 },
+      { name: "1st dose", periodId: 6, rangePeriods: 2 },
+      { name: "2nd dose", periodId: 11, rangePeriods: 1 },
     ],
   },
   {
@@ -164,8 +171,8 @@ export const VACCINES_HISTORY: IVaccineEvent[] = [
     shadowColor: "#fad9e4",
     textColor: "#000000",
     doses: [
-      { name: "1st dose", periodId: 6, rangePeriods: 1.8 },
-      { name: "2nd dose", periodId: 8, rangePeriods: 1.8 },
+      { name: "1st dose", periodId: 6, rangePeriods: 2 },
+      { name: "2nd dose", periodId: 8, rangePeriods: 2 },
     ],
   },
 ];
