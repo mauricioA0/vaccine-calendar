@@ -1,0 +1,1 @@
+export { VaccineEvent } from "./VaccineEvent";
